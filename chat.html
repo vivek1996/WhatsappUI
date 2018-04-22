@@ -14,14 +14,16 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container border-grey">
         <div class=" row">
             <div class=" col-12  p-2">
                 <!-- header start -->
-                <header class=" container-fluid header bg-light">
+                <header class=" container-fluid header bg-grey">
 
                     <img src="images/img_avatar.png" class=" header img-fluid rounded-circle float-left" alt="avatar">
-                    <p class=" float-left">Lorem, ipsum.</p>
+                    <p class=" float-left">Lorem, ipsum.
+                        <small style="top:1.3em ;position: relative;left: -8.094em; color: rgb(41, 223, 41)">Online</small>
+                    </p>
 
 
                     <ul class="header-icons">
@@ -36,9 +38,38 @@
 
                 </header>
                 <!-- header end -->
-        
+                <hr>
                 <!-- chat section start -->
-                
+                <div class="chat-back">
+                    <div class="text-center ">
+                            <small class=" chat-time">Today</small>
+                    </div>
+                    
+                        <div class="row">
+                                <div class="col-4 receiver">.col-md-4</div>
+                                
+                        </div>
+                        <div class="row  align-items-end ">
+                                
+                                <div class="col-4 offset-4 align-self-end sender">.col-md-4 .offset-md-4
+                                    <small >yg</small>
+                                </div>
+                        </div>
+                 </div>
+                  <!-- Reply Box -->
+                  <div class="row reply">
+                        <div class="col-md-1 col-1 reply-emojis"> <i class="far fa-smile fa-2x"></i>
+                        </div>
+                        <div class="col-md-9 col-9 reply-main">
+                            <textarea class="form-control" rows="1" id="comment"></textarea>
+                        </div>
+                        <div class="col-md-1 col-1 reply-recording"> <i class="fas fa-microphone fa-2x"></i>
+                        </div>
+                        <div class="col-md-1 col-1 reply-send"> <i class="fas fa-paper-plane fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Chat section end -->
             </div>
 

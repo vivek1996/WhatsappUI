@@ -16,10 +16,25 @@
 .header-icons li{
    padding: 0px .5em; 
 }
-/* svg:not(:root).svg-inline--fa{
-    
-    font-size: 2rem;
-} */
+.chat-back{
+  background: url('../images/chat_back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  
+}
+.bg-grey{
+  background-color: #c4c1bde8;
+}
+.border-grey{
+  border: 1px solid #c4c1bde8;
+
+}
+.chat-time{
+  background-color: rgb(134, 191, 218);
+  padding: .2em .4em;
+  border-radius: 5px;
+}
 
 .conversation {
     padding: 0 !important;
@@ -184,4 +199,4 @@
     text-indent: 5px;
     box-shadow: none;
   }
-  
+ 
