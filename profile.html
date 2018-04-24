@@ -16,9 +16,55 @@
 <body>
     <div class="container">
         <h1 class=" text-primary">Change Profile Picture</h1>
-        
+        <header class=" container-fluid header bg-light">
+
+            <img src="images/img_avatar.png" class=" header img-fluid rounded-circle float-left" alt="avatar">
+
+
+            <ul class="header-icons">
+                <li>
+                    <i class="fas fa-comment-alt fa-2x"></i>
+                </li>
+                <li>
+                    <i class="fas fa-ellipsis-v fa-2x"></i>
+                </li>
+            </ul>
+
+
+        </header>
+        <hr>
+        <div class=" container bg-light profile-view">
+            <div class="img-container card-center text-center mt-3" style="max-width: 18rem;">
+
+                <img src="./images/img_avatar.png" class="img-fluid rounded-circle" alt="avatar">
+                <p class="title">change photo</p>
+  <div class="overlay"></div>
+  <div class="button"><a href="#"  data-toggle="modal" data-target="#exampleModal"> Click here</a></div>
+            </div>
+        </div>
     </div>
 
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Change Photo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <input type="file" accept="image/*" >
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

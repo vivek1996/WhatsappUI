@@ -95,3 +95,70 @@
   text-indent: 5px;
   box-shadow: none;
 }
+.profile-view{
+  height: 85vh;
+  
+}
+.card-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  position: absolute;
+  
+  left: 1em;
+  top: 120px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+.img-container{
+  border-radius: 50%;
+}
+.img-container:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 500px;
+  left:-6em;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: .7em 1.4em;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  border: solid 2px white;
+  z-index: 1;
+} 
+
+.img-container:hover .button {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.img-container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
