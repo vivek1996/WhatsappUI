@@ -35,7 +35,9 @@
   padding: .2em .4em;
   border-radius: 5px;
 }
-  
+  .chat{
+    position: relative;
+  }
 .receiver {
   width: auto !important;
   position: relative;
@@ -51,8 +53,9 @@
 
 .sender {
   
-  position: relative;
-  left: 13em;
+  position: absolute;
+  right: 1em;
+  /* left: 13em; */
   width: auto !important;
   background: #dcf8c6;
   border-radius: 10px 10px 0 10px;
